@@ -23,9 +23,9 @@ app.get("/favourite/:urlThing", (req, res) => {
 // Passing Data from JSON Object Var route
 app.get("/posts", (req, res) => {
   var posts = [
-    {title: "Post 1", author: "TOM"},
-    {title: "Post 2", author: "JERRY"},
-    {title: "Post 3", author: "SPIKE"}
+    {title: "Post 1", author: "Tom"},
+    {title: "Post 2", author: "Jerry"},
+    {title: "Post 3", author: "Spike"}
   ];
   res.render("posts", {posts: posts});
 });

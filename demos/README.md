@@ -225,6 +225,23 @@ Let's fix that.
 * Ensure that `AZURE_WEBAPP_NAME` has the name of the AppService we chose earlier
 * Ensure that `NODE_VERSION` is `12.x`
 * Take note of `AZURE_WEBAPP_PUBLISH_PROFILE` in the comments of that file.
+* Make sure to change the trigger code to the below one:
+```yml
+on:
+  push:
+    branches:
+      - master
+```
+* And the next step is to comment our the test folder existance check, as in our project we don't have any test unit. So do comment (the lasst line in the below code, present in azure.yml file) the code, it should look loke this:
+```yml
+    - name: npm install, build, and test
+      run: |
+        # Build and test the project, then
+        # deploy to Azure Web App.
+        npm install
+        npm run build --if-present
+      # npm run test --if-present
+```
 * Go back to our resource in Azure and download the publishing profile by clicking "Get publish profile"
   * Open it in Code
 * Right click on Settings > Open in new tab
@@ -234,6 +251,8 @@ Let's fix that.
     * Value: Copy the whole content of the publishing profile we opened earlier
   * Click the button "Add secret"
 * Click on "Start commit" then "Commit new file"
+* Do make a new Push into the repository
+* Visit the repo, and head over to the Actions tab. There we'll see the action got triggered due to the push we just did.
 * Wait until the Action has finished executing (<1 minute)
 * Refresh the default page of our application.
 

@@ -1,0 +1,23 @@
+{
+  "name": "techunite-webappnodejs",
+  "version": "1.0.0",
+  "description": "Getting to know about Microsoft Azure. Creating a basic Web App using NodeJS.\r Deploying the webapp to Azure via [GitHub Actions](https://help.github.com/en/actions/getting-started-with-github-actions/about-github-actions).",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yash-Yadav/TechUniteWebAppsNodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yash-Yadav/TechUniteWebAppsNodeJS/issues"
+  },
+  "homepage": "https://github.com/Yash-Yadav/TechUniteWebAppsNodeJS#readme",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1"
+  }
+}

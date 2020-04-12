@@ -1,0 +1,12 @@
+<!-- include header template -->
+<%- include('partials/header') -%>
+<h3>Your Favourite thing is: <%= thingVar.toUpperCase() %></h3>
+
+<% if(thingVar.toLowerCase() === "technology"){ %>
+<p>Good Choice! technology is the Best!</p>
+<% } else { %>
+  <p>Hmm, Still okay with me, But... You should have said technology</p>
+<% } %>
+
+<!-- include footer template -->
+<%- include('partials/footer') -%>

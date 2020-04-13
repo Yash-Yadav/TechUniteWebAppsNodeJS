@@ -16,4 +16,12 @@ Deploying the webapp to Azure via [GitHub Actions](https://help.github.com/en/ac
   <td>
     <sub><b>Powered by: TECH UNITE</b></sub>
   </td>
-</tr></table>
+</tr>
+<tr>
+<td align="center"><a href="https://source4resource.blogspot.com/"><img src="https://avatars0.githubusercontent.com/u/32845721?v=4" width="100px;" alt=""/><br /><sub><b>Yash-Yadav</b></sub></a>
+<br />🖋 💡
+</td>
+  <td align="center"><a href="https://blog.maximerouiller.com"><img src="https://avatars1.githubusercontent.com/u/209384?v=4" width="100px;" alt=""/><br /><sub><b>Maxime Rouiller</b></sub></a><br />🖋 💡
+  </td>
+</tr>
+</table>

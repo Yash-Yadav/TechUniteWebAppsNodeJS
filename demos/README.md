@@ -142,9 +142,13 @@ app.get("/favourite/:urlThing", (req, res) => {
 * Now lets add a new route (right below the Favourite page route):
 ```JavaScript
 // Passing Data from JSON Object Var route
-app.get("/favourite/:urlThing", (req, res) => {
-  var thing = req.params.urlThing;
-  res.render("favourite", {thingVar: thing});
+app.get("/posts", (req, res) => {
+  var posts = [
+    {title: "Post 1", author: "Tom"},
+    {title: "Post 2", author: "Jerry"},
+    {title: "Post 3", author: "Spike"}
+  ];
+  res.render("posts", {posts: posts});
 });
 ```
 * Now Add a new file named as "favourite.ejs" in the views directory.

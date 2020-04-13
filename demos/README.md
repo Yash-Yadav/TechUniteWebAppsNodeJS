@@ -151,8 +151,8 @@ app.get("/posts", (req, res) => {
   res.render("posts", {posts: posts});
 });
 ```
-* Now Add a new file named as "favourite.ejs" in the views directory.
-* Add the below code into the above created "favourite.ejs" file:
+* Now Add a new file named as "posts.ejs" in the views directory.
+* Add the below code into the above created "posts.ejs" file:
 ```html
 <!-- include header template -->
 <%- include('partials/header') -%>

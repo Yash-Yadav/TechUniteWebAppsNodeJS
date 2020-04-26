@@ -31,7 +31,7 @@ app.listen(port, () => console.log('Application started at => http://localhost:'
 
 We start with the code from the previous demo.
 * In the terminal window, run the command `npm install ejs --save`.
-* Create folders & files inside the projet directory as per the below given List:
+* Create folders & files inside the project directory as per the below given List:
   * public
     * app.css
   * views

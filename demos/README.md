@@ -8,12 +8,12 @@
   - everything by default except the entrypoint which will be `app.js`
 * `code .` to open VS Code on that folder
 * Explore what `package.json` is. Mainly mention the entrypoint which is `main: app.js`
-* Show how to open the terminal in VSCode (`View > Terminal`)
+* How to open the terminal in VSCode (`View > Terminal`)
 * To handle the webserver, we're going to install `express`
 * In the terminal window, run the command `npm install express --save`.
 * Notice that `package.json` now has a dependency section on the latest version of `express`
 * Create the file `app.js`
-* Type in/snippet/copy/paste the following content. Always make sure to explain what each lines are doing as you are typing them.
+* Type in/snippet/copy/paste the following content.
 
 ```javascript
 const express = require('express');
@@ -31,7 +31,7 @@ app.listen(port, () => console.log('Application started at => http://localhost:'
 
 We start with the code from the previous demo.
 * In the terminal window, run the command `npm install ejs --save`.
-* Create folders & files inside the projet directory as per thie below given List:
+* Create folders & files inside the projet directory as per the below given List:
   * public
     * app.css
   * views
